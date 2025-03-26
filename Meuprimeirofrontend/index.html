@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TODO List</title>
+    <script src="script.js"></script>
+</head>
+<body onload = "listarTarefas()">
+    <h1>My TODO List</h1>
+    <div>
+        <input type="text" id="novaTarefa" placeholder="Digite uma nova tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <button onclick="limparLista()">limpar</button>
+    </div>
+    <ul id="listaTarefas">
+    </ul>
+</body>
+</html>
